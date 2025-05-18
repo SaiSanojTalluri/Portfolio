@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["Python", "OpenCV", "TensorFlow", "YOLO"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SaiSanojTalluri/Bike-Helmet-Detection-using-YOU-LOOK-ONLY-ONCE-YOLOv5-",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["Python", "OpenCV", "TensorFlow", "YOLO"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SaiSanojTalluri",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React.js", "TailWind CSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SaiSanojTalluri/Portfolio",
   },
 ];
 
@@ -75,13 +75,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/SaiSanojTalluri"
           >
             Check My Github <ArrowRight size={16} />
           </a>

@@ -2,7 +2,7 @@ import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-31 px-4 relative">
+    <section id="about" className="py-32 px-4 relative">
       {" "}
       <div className="container mx-auto max-w-2xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -33,7 +33,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1t-HUe1d7VHHtaVvSZodSMt__n2_LNYxG/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
