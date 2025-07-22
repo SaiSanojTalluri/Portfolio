@@ -114,7 +114,7 @@ export const ContactSection = () => {
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
-            <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+            <!-- <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
             <form className="space-y-6">
               <div>
@@ -168,7 +168,7 @@ export const ContactSection = () => {
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
                   // placeholder="Hello, I'd like to talk about..."
                 />
-              </div>
+              </div> -->
 
               <button
                 type="submit"
