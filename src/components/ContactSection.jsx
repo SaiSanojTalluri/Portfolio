@@ -43,7 +43,7 @@ export const ContactSection = () => {
         </p> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="space-y-8 space-x-40">
+          <div className="space-y-8 space-x-">
             <h3 className="text-2xl font-semibold mb-8">
               {" "}
               Contact Information
